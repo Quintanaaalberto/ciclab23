@@ -80,17 +80,10 @@
 }
 
 .frame .round-button-2 {
-    align-items: center;
-    border-radius: 5px;
-    display: flex;
-    gap: 16px;
-    justify-content: center;
-    left: 22px;
-    overflow: hidden;
-    padding: 16px;
     position: absolute;
-    top: 17px;
-    width: fit-content;
+    top: 0;
+    width: 100%;
+    border-radius: 25px;
 }
 
 

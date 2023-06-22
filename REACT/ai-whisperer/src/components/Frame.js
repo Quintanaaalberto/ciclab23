@@ -1,6 +1,6 @@
 import React from "react";
 import { InformativeButton } from "./InformativeButton"
-import { RoundButton } from "./RoundButton";
+import { AudioButton } from "./RoundButton-2";
 import { TranscribeButton} from "./TranscribeButton"
 import "./style.css"
 
@@ -24,7 +24,7 @@ export const Frame = () => {
                         </div>
                     </div>
                     <div className="round-button-2">
-                        <RoundButton hover="false" imageSrc="./211859_mic_icon-1.png"/>
+                        <AudioButton/>
                         {/*<RoundButton hover/>*/}
                     </div>
                 </div>

@@ -1,61 +1,29 @@
 /*!* Round Button styling *!*/
 
-/*.round-button {*/
-/*    align-items: center;*/
-/*    display: flex;*/
-/*    justify-content: center;*/
-/*    position: relative;*/
-/*    width: fit-content;*/
-/*}*/
-
-/*.button {*/
-/*    align-items: center;*/
-/*    border-radius: 999px;*/
-/*    display: flex;*/
-/*    gap: 12px;*/
-/*    justify-content: center;*/
-/*    overflow: hidden;*/
-/*    padding: 23px 32px;*/
-/*    position: relative;*/
-/*    width: fit-content;*/
-/*}*/
-
-/*.element-mic-icon {*/
-/*    height: 40px;*/
-/*    min-width: 40px;*/
-/*    object-fit: cover;*/
-/*    position: relative;*/
-/*}*/
-
-/*.button.hover-true {*/
-/*    background-color: #2b2e4a;*/
-/*    box-shadow: 0 7px 21px rgba(37, 44, 97, 0.2), 0 3px 8px rgba(136, 144, 194, 0.4);*/
-/*}*/
-
-/*.button.hover-false {*/
-/*    background-color: #ffffff;*/
-/*    box-shadow: 0 5px 15px #252c6126, 0 2px 4px #8890c233;*/
-/*}*/
-
-.round-button {
-    align-items: center;
-    background-color: white;
-    border: none;
-    border-radius: 50%;
-    box-shadow: 0px 3px 6px #00000029;
+.audio-recorder-wrapper {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    top: 0;
+    width: 100%;
+    height: 150px;
+    border-radius: 25px;
+    background-color: #333333;
     display: flex;
     justify-content: center;
-    padding: 20px;
-    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+
 }
 
-.round-button img {
-    width: 24px;
-    height: 24px;
+.audio-recorder-wrapper img{
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+    position: absolute;
+
+
 }
 
-.round-button.hovered {
-    background-color: #2b2e4a;
-    box-shadow: none;
+.audio-recorder-wrapper.audio-recorder {
+    position: absolute;
+    vertical-align: center;
 }
 
