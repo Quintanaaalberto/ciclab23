@@ -1,0 +1,74 @@
+/* Informative Button styling */
+
+.informative-button {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    width: fit-content;
+}
+
+.informative-button .button {
+    align-items: center;
+    border-radius: 999px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    overflow: hidden;
+    padding: 5px 15px 5px 6px;
+    position: relative;
+    width: fit-content;
+}
+
+.informative-button .tag {
+    align-items: center;
+    background-color: #2b2eda;
+    border-radius: 999px;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    padding: 7px 10px;
+    position: relative;
+    width: fit-content;
+}
+
+.informative-button .tag-text {
+    color: #ffffff;
+    font-family: "Lato", Helvetica, serif;
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 0.6px;
+    line-height: 10px;
+    margin-top: -1px;
+    position: relative;
+    white-space: nowrap;
+}
+
+.informative-button .side-text {
+    color: #ffffff;
+    font-family: "Lato", Helvetica, serif;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 16px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+}
+
+.informative-button .hover-true {
+    background-color: #2b2e4a33;
+}
+
+.informative-button .hover-false {
+    background-color: #2b2e4a1f;
+}
+
+.informative-button .button.hover-true .free-trial {
+    width: fit-content;
+}
+
+.informative-button .button.hover-false .free-trial {
+    width: 48px;
+}
+

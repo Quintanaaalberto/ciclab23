@@ -1,0 +1,98 @@
+/* Main frame styling */
+
+.frame {
+    background-color: transparent;
+    display: flex;
+}
+.frame .overlap-group-wrapper {
+    border: 1px none;
+    height: 649px;
+    width: 520px;
+}
+.frame .overlap-group {
+    background-color: #222222;
+    border-radius: 25px;
+    height: 558px;
+    position: relative;
+}
+
+.frame .overlap {
+    height: 239px;
+    left: 24px;
+    position: absolute;
+    top: 303px;
+    width: 472px;
+}
+
+.frame .rectangle {
+    background-color: #646464;
+    border-radius: 8px;
+    height: 163px;
+    left: 0;
+    position: absolute;
+    top: 76px;
+    width: 472px;
+}
+.frame .transcribe-button-2 {
+    align-items: center;
+    border-radius: 5px;
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+    left: 98px;
+    overflow: hidden;
+    padding: 16px;
+    position: absolute;
+    top: 0;
+    width: fit-content;
+}
+
+.frame .overlap-2 {
+    height: 77px;
+    left: 0;
+    position: absolute;
+    top: 203px;
+    width: 496px;
+}
+
+.frame .rectangle-2 {
+    background-color: #646464;
+    border-radius: 4px;
+    height: 22px;
+    left: 24px;
+    position: absolute;
+    top: 55px;
+    width: 472px;
+}
+
+.frame .informative-button-2 {
+    align-items: center;
+    border-radius: 5px;
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+    left: 0;
+    overflow: hidden;
+    padding: 16px;
+    position: absolute;
+    top: 0;
+    width: fit-content;
+}
+
+.frame .round-button-2 {
+    align-items: center;
+    border-radius: 5px;
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+    left: 22px;
+    overflow: hidden;
+    padding: 16px;
+    position: absolute;
+    top: 17px;
+    width: fit-content;
+}
+
+
+
+
