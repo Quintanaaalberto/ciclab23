@@ -102,11 +102,12 @@ const AudioRecorder = () => {
                         </button>
                     ) : null}
                     {audio ? (
-                        <a>
+                        <div className="audio-bubble-wrapper">
                             <audio className="audio-bubble" src={audio} controls></audio>
-                            <div/>
-                            <a download href={audio}>Download Recording</a>
-                        </a>
+                            <div className="audio-object">
+                                <a download href={audio}>Download Recording</a>
+                            </div>
+                        </div>
                     ) : null}
                 </div>
 
