@@ -3,25 +3,31 @@
 .frame {
     background-color: transparent;
     display: flex;
+    align-items: center;
 }
+
 .frame .overlap-group-wrapper {
+
     border: 1px none;
     height: 649px;
     width: 520px;
+    align-items: center;
 }
+
 .frame .overlap-group {
     background-color: #222222;
     border-radius: 25px;
     height: 558px;
     position: relative;
+    align-items: center;
 }
 
 .frame .overlap {
-    height: 239px;
+    height: 80%;
     left: 24px;
     position: absolute;
     top: 303px;
-    width: 472px;
+    width: 80%;
 }
 
 .frame .rectangle {
@@ -33,18 +39,28 @@
     top: 76px;
     width: 472px;
 }
+
 .frame .transcribe-button-2 {
     align-items: center;
+
     border-radius: 5px;
     display: flex;
     gap: 16px;
-    justify-content: center;
+    justify-content: column;
     left: 98px;
     overflow: hidden;
     padding: 16px;
-    position: absolute;
+    position: relative;
     top: 0;
-    width: fit-content;
+}
+
+.frame .transcribe-button-2 .options-button-2 {
+    background-color: turquoise;
+    width: 30%;
+    height: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .frame .overlap-2 {
@@ -54,6 +70,15 @@
     top: 203px;
     width: 496px;
 }
+
+.frame .overlap-3 {
+    height: 77px;
+    left: 0;
+    position: absolute;
+    top: 203px;
+    width: 496px;
+}
+
 
 .frame .rectangle-2 {
     background-color: #646464;
@@ -85,7 +110,3 @@
     width: 100%;
     border-radius: 25px;
 }
-
-
-
-

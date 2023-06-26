@@ -1,26 +1,20 @@
-/* Transcribe Button styling */
+/* Resume Button styling */
 
-.transcribe-button {
+.resume-button {
 
     align-items: left;
     display: flex;
-    justify-content: flex-start;
-    position: sticky;
-    top: '90%';
-    /*bottom: '10%';*/
-    /* right: '90%'; */
-    left: '10%';
-    /* justify-content: center; */
+    justify-content: center;
+    position: absolute;
     width: fit-content;
     background-color: grey;
     color: white;
     padding: 20px 20px;
     border-radius: 5px;
     font-size: 16px;
-    flex-direction: column;
 }
 
-.transcribe-button .button {
+.resume-button .button {
 
     align-items: left;
     background-color: white;
@@ -31,12 +25,12 @@
     gap: 10px;
     justify-content: center;
     padding: 10px 15px 5px 6px;
-    position: relative;
+    position: absolute;
     width: fit-content;
 
 }
 
-.transcribe-button .prompt {
+.resume-button .prompt {
     color: #000000;
     font-family: "Source Code Pro", Helvetica, serif;
     font-size: 14px;
@@ -52,11 +46,11 @@
 
 }
 
-.transcribe-button.hover-true {
+.resume-button.hover-true {
     padding: 2px 2px 4px 2px;
 }
 
-.transcribe-button.hover-false {
+.resume-button.hover-false {
     padding: 2px;
 }
 
